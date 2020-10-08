@@ -33,7 +33,7 @@ class UserController extends Controller
         if(Auth::attempt($d)){
             if(Auth::check()){
                 $user=Auth::user();
-                array_push($d,$user->)
+                array_push($d,$user->);//lan cuoi luc gan sang
             }
         }
     }
